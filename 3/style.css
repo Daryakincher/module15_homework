@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  span {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+  }
+  
+  .input {
+    width: 250px;
+    height: 30px;
+    border: 3px solid #58afed;
+  }
+  
+  .button-send,
+  .button-geo,
+  .clear {
+    width: 120px;
+    height: 35px;
+    padding: 5px 15px;
+    background-color: #58afed;
+    border: none;
+  }
+  
+  .chat {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    width: 510px;
+    height: 300px;
+    border: 3px solid #58afed;
+  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  
+    overflow-y: scroll;
+    position: relative;
+  }
+  
+  .chat .recieved,
+  .chat .send,
+  .geo-info {
+    padding: 5px 15px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid #58afed;
+    hyphens: auto;
+  }
+  
+  .chat .recieved {
+    max-width: 350px;
+    align-self: flex-start;
+  }
+  
+  .chat .send,
+  .geo-info {
+    max-width: 350px;
+    align-self: flex-end;
+  }
